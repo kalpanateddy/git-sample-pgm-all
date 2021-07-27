@@ -25,6 +25,8 @@ public class Sample1 {
 	WebElement login = driver.findElement(By.id("login"));
 	js.executeScript("arguments[0].click()", login);
 			
-	
+	System.out.println("jeera");
+			System.out.println("java");
+	System.out.println("selenium");
 
 }}
