@@ -18,13 +18,18 @@ public class Sample1 {
 	JavascriptExecutor js=(JavascriptExecutor)driver;
 	js.executeScript("arguments[0].setAttribute('value','kalpanateddy')", name);
 
-	
 	WebElement ps = driver.findElement(By.id("password"));
 	js.executeScript("arguments[0].setAttribute('value','kalpana')", ps);
 			
 	WebElement login = driver.findElement(By.id("login"));
 	js.executeScript("arguments[0].click()", login);
+	=======
+			System.out.println("js");
+			System.out.println(name);
+			System.out.println(login);
+		>>>>>>> 3cb1e67cd28d3c6721be4c669278e570874933c3
 			
+<<<<<<< HEAD
 	System.out.println("jeera");
 			System.out.println("java");
 	System.out.println("selenium");
